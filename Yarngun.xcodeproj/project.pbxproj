@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		4D6672A52241C59400AB0596 /* Yarngun.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D6672A32241C59400AB0596 /* Yarngun.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D6672AF2241C61E00AB0596 /* CIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6672AC2241C61E00AB0596 /* CIImage.swift */; };
+		4D6672B02241C61E00AB0596 /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6672AD2241C61E00AB0596 /* CGPoint.swift */; };
+		4D6672B12241C61E00AB0596 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6672AE2241C61E00AB0596 /* UIImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4D6672A02241C59400AB0596 /* Yarngun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Yarngun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D6672A32241C59400AB0596 /* Yarngun.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Yarngun.h; sourceTree = "<group>"; };
 		4D6672A42241C59400AB0596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D6672AC2241C61E00AB0596 /* CIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIImage.swift; sourceTree = "<group>"; };
+		4D6672AD2241C61E00AB0596 /* CGPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPoint.swift; sourceTree = "<group>"; };
+		4D6672AE2241C61E00AB0596 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +36,7 @@
 		4D6672962241C59400AB0596 = {
 			isa = PBXGroup;
 			children = (
+				4D6672AB2241C61E00AB0596 /* Extensions */,
 				4D6672A22241C59400AB0596 /* Yarngun */,
 				4D6672A12241C59400AB0596 /* Products */,
 			);
@@ -50,6 +57,17 @@
 				4D6672A42241C59400AB0596 /* Info.plist */,
 			);
 			path = Yarngun;
+			sourceTree = "<group>";
+		};
+		4D6672AB2241C61E00AB0596 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4D6672AC2241C61E00AB0596 /* CIImage.swift */,
+				4D6672AD2241C61E00AB0596 /* CGPoint.swift */,
+				4D6672AE2241C61E00AB0596 /* UIImage.swift */,
+			);
+			name = Extensions;
+			path = Yarngun/Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +148,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D6672B12241C61E00AB0596 /* UIImage.swift in Sources */,
+				4D6672B02241C61E00AB0596 /* CGPoint.swift in Sources */,
+				4D6672AF2241C61E00AB0596 /* CIImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
