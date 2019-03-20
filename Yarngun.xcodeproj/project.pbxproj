@@ -11,6 +11,10 @@
 		4D6672AF2241C61E00AB0596 /* CIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6672AC2241C61E00AB0596 /* CIImage.swift */; };
 		4D6672B02241C61E00AB0596 /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6672AD2241C61E00AB0596 /* CGPoint.swift */; };
 		4D6672B12241C61E00AB0596 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6672AE2241C61E00AB0596 /* UIImage.swift */; };
+		4D6672C82241CAA600AB0596 /* Bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6672C72241CAA600AB0596 /* Bag.swift */; };
+		4D6672CC2241CABC00AB0596 /* Decimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6672C92241CABC00AB0596 /* Decimal.swift */; };
+		4D6672CD2241CABC00AB0596 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6672CA2241CABC00AB0596 /* Date.swift */; };
+		4D6672CE2241CABC00AB0596 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6672CB2241CABC00AB0596 /* String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		4D6672AC2241C61E00AB0596 /* CIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIImage.swift; sourceTree = "<group>"; };
 		4D6672AD2241C61E00AB0596 /* CGPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPoint.swift; sourceTree = "<group>"; };
 		4D6672AE2241C61E00AB0596 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		4D6672C72241CAA600AB0596 /* Bag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bag.swift; sourceTree = "<group>"; };
+		4D6672C92241CABC00AB0596 /* Decimal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Decimal.swift; sourceTree = "<group>"; };
+		4D6672CA2241CABC00AB0596 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		4D6672CB2241CABC00AB0596 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +60,7 @@
 		4D6672A22241C59400AB0596 /* Yarngun */ = {
 			isa = PBXGroup;
 			children = (
+				4D6672C72241CAA600AB0596 /* Bag.swift */,
 				4D6672AB2241C61E00AB0596 /* Extensions */,
 				4D6672A32241C59400AB0596 /* Yarngun.h */,
 				4D6672A42241C59400AB0596 /* Info.plist */,
@@ -62,6 +71,9 @@
 		4D6672AB2241C61E00AB0596 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				4D6672CA2241CABC00AB0596 /* Date.swift */,
+				4D6672C92241CABC00AB0596 /* Decimal.swift */,
+				4D6672CB2241CABC00AB0596 /* String.swift */,
 				4D6672AC2241C61E00AB0596 /* CIImage.swift */,
 				4D6672AD2241C61E00AB0596 /* CGPoint.swift */,
 				4D6672AE2241C61E00AB0596 /* UIImage.swift */,
@@ -148,8 +160,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D6672B12241C61E00AB0596 /* UIImage.swift in Sources */,
+				4D6672CD2241CABC00AB0596 /* Date.swift in Sources */,
 				4D6672B02241C61E00AB0596 /* CGPoint.swift in Sources */,
+				4D6672C82241CAA600AB0596 /* Bag.swift in Sources */,
+				4D6672CE2241CABC00AB0596 /* String.swift in Sources */,
 				4D6672AF2241C61E00AB0596 /* CIImage.swift in Sources */,
+				4D6672CC2241CABC00AB0596 /* Decimal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
