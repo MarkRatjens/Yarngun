@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "group:../Yarngun/Extensions"
+      name = "Extensions">
+      <FileRef
+         location = "group:CIImage.swift">
+      </FileRef>
+      <FileRef
+         location = "group:CGPoint.swift">
+      </FileRef>
+      <FileRef
+         location = "group:UIImage.swift">
+      </FileRef>
+   </Group>
    <FileRef
-      location = "self:Yarngun.xcodeproj">
+      location = "self:">
    </FileRef>
 </Workspace>

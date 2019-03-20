@@ -36,7 +36,6 @@
 		4D6672962241C59400AB0596 = {
 			isa = PBXGroup;
 			children = (
-				4D6672AB2241C61E00AB0596 /* Extensions */,
 				4D6672A22241C59400AB0596 /* Yarngun */,
 				4D6672A12241C59400AB0596 /* Products */,
 			);
@@ -53,6 +52,7 @@
 		4D6672A22241C59400AB0596 /* Yarngun */ = {
 			isa = PBXGroup;
 			children = (
+				4D6672AB2241C61E00AB0596 /* Extensions */,
 				4D6672A32241C59400AB0596 /* Yarngun.h */,
 				4D6672A42241C59400AB0596 /* Info.plist */,
 			);
@@ -66,8 +66,7 @@
 				4D6672AD2241C61E00AB0596 /* CGPoint.swift */,
 				4D6672AE2241C61E00AB0596 /* UIImage.swift */,
 			);
-			name = Extensions;
-			path = Yarngun/Extensions;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
