@@ -124,6 +124,7 @@
 				TargetAttributes = {
 					4D66729F2241C59400AB0596 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -133,6 +134,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 4D6672962241C59400AB0596;
 			productRefGroup = 4D6672A12241C59400AB0596 /* Products */;
@@ -314,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = nyasa.Yarngun;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -339,7 +341,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = nyasa.Yarngun;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
