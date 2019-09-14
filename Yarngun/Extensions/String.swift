@@ -43,7 +43,11 @@ extension String {
 	public var words: Set<String> {
 		return Set(split(separator: " ").map { String($0) })
 	}
+
+	public var titleized: String { return prefix(1).capitalized + dropFirst() }
 	
+	public mutating func titleize() { self = self.titleized }
+
 	public var toAlphaNumerics: String {
 		let unsafeChars = CharacterSet.alphanumerics.inverted
 		return components(separatedBy: unsafeChars).joined(separator: " ")
